@@ -5,7 +5,7 @@ The goal of this lab is to deploy the Algonquin Pet Store application to **Azure
 
 ---
 
-## 🚀 What This Lab Covers
+##  What This Lab Covers
 
 - Creating an AKS cluster  
 - Connecting to the cluster using Azure CLI + kubectl  
@@ -16,27 +16,23 @@ The goal of this lab is to deploy the Algonquin Pet Store application to **Azure
 
 ---
 
-## 📦 Files Included
+##  Files Included
 
 - **algonquin-pet-store-all-in-one.yaml**  
-  Deployment file used to deploy all microservices to AKS.
+  The deployment file is used to deploy all microservices to AKS.
 
-- **video/**  
-  Folder containing the demo video (placeholder added — video will be uploaded later).
 
 ---
 
 ##  Demo Video
 
-The demo video for this lab will be added here:
-
- `video/lab6-demo.mp4` *(coming soon)*
+ [Youtube Video](https://youtu.be/hG1ul1vvNNU)
 
 ---
 
 ##  How All Services Share One IP
 
-The store-front container includes an **NGINX reverse proxy**.  
+The store-front container includes an NGINX reverse proxy.  
 NGINX looks at the URL path and forwards the request to the correct backend service:
 
 - `/products` → product-service  
